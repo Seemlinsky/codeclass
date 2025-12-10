@@ -28,7 +28,7 @@ public class Application extends javafx.application.Application {
         button.setLayoutX(300);
         button.setLayoutY(300);
 
-        root.getChildren().addAll(label, button);
+//        root.getChildren().addAll(label, button);
 
 //        titleVar = "codeclass les 1";
 //        string titleVar2 = "codeclass les 1";

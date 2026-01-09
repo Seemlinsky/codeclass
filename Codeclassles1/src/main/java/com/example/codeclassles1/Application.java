@@ -24,11 +24,12 @@ public class Application extends javafx.application.Application {
         Button button = new Button("Naam die op de Button komt te staan");
         root.getChildren().add(button);
         Label label = new Label(titleVar);
+//        root.getChildren().addAll(label, button);
 
         button.setLayoutX(300);
         button.setLayoutY(300);
 
-//        root.getChildren().addAll(label, button);
+
 
 //        titleVar = "codeclass les 1";
 //        string titleVar2 = "codeclass les 1";

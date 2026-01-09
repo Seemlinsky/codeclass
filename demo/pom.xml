@@ -1,0 +1,26 @@
+<properties>
+    <java.version>17</java.version>
+    <javafx.version>21</javafx.version>
+</properties>
+
+<dependencies>
+<!-- JavaFX -->
+<dependency>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-controls</artifactId>
+    <version>${javafx.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-fxml</artifactId>
+    <version>${javafx.version}</version>
+</dependency>
+
+<!-- MySQL -->
+<dependency>
+    <groupId>com.mysql</groupId>
+    <artifactId>mysql-connector-j</artifactId>
+    <version>8.3.0</version>
+</dependency>
+</dependencies>
